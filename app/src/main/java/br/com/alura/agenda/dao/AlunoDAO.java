@@ -1,6 +1,5 @@
 package br.com.alura.agenda.dao;
 
-import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
 import java.util.ArrayList;
@@ -30,8 +29,8 @@ public class AlunoDAO {
     public void edita(Aluno aluno){
         Aluno alunoEncontrado = buscaAlunoPeloId(aluno);
         if (alunoEncontrado != null){
-            int posicaoDoALuno = alunos.lastIndexOf(alunoEncontrado);
-            alunos.set(posicaoDoALuno, aluno);
+            int posicaoDoAluno = alunos.lastIndexOf(alunoEncontrado);
+            alunos.set(posicaoDoAluno, aluno);
         }
     }
 

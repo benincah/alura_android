@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nome">Name</string>
+    <string name="telefone">Phone</string>
+    <string name="email">E-mail</string>
+    <string name="salvar_aluno">Save</string>
+    <string name="remover_aluno">Remove</string>
+    <string name="teste">Test</string>
+    <string name="app_name">Agenda</string>
+</resources>
